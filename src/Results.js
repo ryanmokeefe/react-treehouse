@@ -13,8 +13,8 @@ class Results extends Component {
         let results = this.props.showsQuerried.map((show, index) => {
             return (
                 <div key={index}>
-                <img src={show.image} alt={show.name} />
-                <p>{show.name}</p>
+                    <img src={show.image} alt={show.name} />
+                    <p>{show.name}</p>
                 </div>
             )
         })
